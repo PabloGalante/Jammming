@@ -1,6 +1,4 @@
-import { APIKEY } from './config';
-
-const clientId = APIKEY.APIKEY;
+const clientId = APIKEY;
 const redirectURI = 'https://pablojam.surge.sh/';
 
 let accessToken = '';
